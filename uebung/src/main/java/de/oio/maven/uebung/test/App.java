@@ -3,6 +3,7 @@ package de.oio.maven.uebung.test;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.HashMap;
 import java.util.Locale;
 
@@ -13,7 +14,7 @@ public class App{
         File localizedFile = getLocalizedFile();
    
 		try {
-			String localizedText = FileUtils.readFileToString(localizedFile);
+			String localizedText = FileUtils.readFileToString(localizedFile,Charset.defaultCharset());
 			System.out.println(localizedText);
 		} catch (IOException e) {}
     }

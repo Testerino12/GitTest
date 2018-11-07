@@ -20,8 +20,8 @@ public class App{
 
 	private static File getLocalizedFile() {
 		HashMap<Locale, File> fileMap = doAsIfRetrievingFiles();
-		File localizedFile = fileMap.get(Locale.getDefault());
-//		File localizedFile = fileMap.get(Locale.ENGLISH);
+//		File localizedFile = fileMap.get(Locale.getDefault());
+		File localizedFile = fileMap.get(Locale.ENGLISH);
 		if(localizedFile != null) {
 			return localizedFile;
 		}else {

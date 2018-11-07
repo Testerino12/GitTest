@@ -37,8 +37,8 @@ public class App{
     	fileMap.put(Locale.ENGLISH, engFile);
     	fileMap.put(Locale.GERMANY, gerFile);
 		try {
-	    	FileUtils.writeStringToFile(engFile, "Hello World!");
-	    	FileUtils.writeStringToFile(gerFile, "Hallo Welt!");
+	    	FileUtils.writeStringToFile(engFile, "Hello World!",Charset.defaultCharset());
+	    	FileUtils.writeStringToFile(gerFile, "Hallo Welt!",Charset.defaultCharset());
 		} catch (IOException e) {}
     	return fileMap;
 	}

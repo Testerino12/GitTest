@@ -30,11 +30,7 @@ public class App{
 			return fileMap.get(Locale.ENGLISH);
 		}
 	}
-<<<<<<< HEAD
-// hello bla blup
-=======
-// hello there
->>>>>>> branch 'master' of https://github.com/Testerino12/GitTest
+// hello bla blup there
 	private static HashMap<Locale, File> doAsIfRetrievingFiles(){
 		File engFile = new File("HelloWorld.txt");
     	File gerFile = new File("HalloWelt.txt");

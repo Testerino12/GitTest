@@ -11,7 +11,7 @@ import org.apache.commons.io.FileUtils;
 
 public class App{
     public static void main( String[] args ){
-    	System.out.println("bla");
+    	System.out.println("blub");
         File localizedFile = getLocalizedFile();
    
 		try {

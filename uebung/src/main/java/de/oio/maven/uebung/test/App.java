@@ -30,7 +30,7 @@ public class App{
 			return fileMap.get(Locale.ENGLISH);
 		}
 	}
-// hello 
+// hello bla
 	private static HashMap<Locale, File> doAsIfRetrievingFiles(){
 		File engFile = new File("HelloWorld.txt");
     	File gerFile = new File("HalloWelt.txt");

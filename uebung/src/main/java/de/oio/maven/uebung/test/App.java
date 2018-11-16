@@ -11,6 +11,7 @@ import org.apache.commons.io.FileUtils;
 
 public class App{
     public static void main( String[] args ){
+    	System.out.println("blub");
         File localizedFile = getLocalizedFile();
    
 		try {
@@ -29,7 +30,7 @@ public class App{
 			return fileMap.get(Locale.ENGLISH);
 		}
 	}
-// hello 
+// hello bla blup there
 	private static HashMap<Locale, File> doAsIfRetrievingFiles(){
 		File engFile = new File("HelloWorld.txt");
     	File gerFile = new File("HalloWelt.txt");
